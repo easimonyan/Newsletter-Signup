@@ -21,11 +21,15 @@ app.post("/", function(req,res) {
         server: "us18",
       });
       
-      const listId = "a47acc395d";
+const listId = "a47acc395d";
+      document.querySelector("#submit").onclick = function(){
+        const firstName = document.getElementById("fName");
+        console.log(firstName.value); 
+    }
         const subscribingUser = {
-        firstName: "Prudence",
-        lastName: "McVankab",
-        email: "e.a.simonyan@gmail.com"
+        firstName: "",
+        lastName: "",
+        email: ""
         };
 
     async function run() {
