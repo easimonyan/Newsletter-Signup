@@ -74,8 +74,4 @@ app.listen(3000, function(){
     console.log("Server is running on port 3000.");
 })
 
-// API Key Mailchimp
-// c53f5dc8bd80b05ff510fe2b7181aaac-us18
 
-// List ID
-// a47acc395d
