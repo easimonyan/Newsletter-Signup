@@ -46,11 +46,11 @@ app.post("/", function(req, res){
     const jsonData = JSON.stringify(data);
  
     // *** url = "https://<data center>.api.mailchimp.com/3.0/lists/{listID}";
-    const url = "https://us18.api.mailchimp.com/3.0/lists/a47acc395d";
+    const url = "https://us18.api.mailchimp.com/3.0/lists/*list id*";
  
     const options = {
         method: "POST",
-        auth: "text or name:c53f5dc8bd80b05ff510fe2b7181aaac-us18"
+        auth: "text or name:*API key*"
     };
     
     // *** Requesting and send back our data to mailchimp ***
